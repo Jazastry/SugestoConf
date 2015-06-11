@@ -3,23 +3,26 @@ nav.navbar {
   nav.navbar .nav.navbar-nav {
     padding-top: 1.5%; }
 
-body {
-  background: -webkit-linear-gradient(left top, #E0DECB, #9F8283);
-  /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom right, #E0DECB, #9F8283);
-  /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(bottom right, #E0DECB, #9F8283);
-  /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom right, #E0DECB, #9F8283);
-  /* Standard syntax (must be last) */ }
-  body footer {
+html body {
+  background: url("../images/backgrounds/rose-top-eq.png"), #E4E0CE;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-attachment: fixed;
+  background-size: 100%; }
+  html body .sect1 {
+    background-color: rgba(252, 245, 245, 0.7); }
+  html body footer {
     height: 100px; }
 
 .info {
-  padding-top: 80px; }
+  padding-top: 120px; }
+
+.marg-s {
+  margin: 10px; }
 
 .img-s {
-  height: 60px; }
+  height: 50px;
+  width: 80%; }
 
 .img-m {
   height: 100px; }

@@ -9,7 +9,7 @@ $rose-dark: #FF64A2;
 $gray-light: #EDEAEA;
 $gray-light-trans: rgba(237,234,234, 0.8);
 
-$background-top-left: #E0DECB;
+$background-top-left: #E4E0CE;
 $background-top-left-trans: rgba(224,222,203,0.8);
 $background-bottom-right: #9F8283;
 $background-bottom-right-trans: rgba(159,130,131,0.8);
@@ -17,27 +17,42 @@ $background-bottom-right-trans: rgba(159,130,131,0.8);
 
 nav.navbar {
 	background-color: $background-top-left-trans;
+	.navbar-header button {
+		
+	}
 	.nav.navbar-nav {
 		padding-top: 1.5%;
 	}
 }
-
-body {
-    background: -webkit-linear-gradient(left top, $background-top-left , $background-bottom-right); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom right, $background-top-left, $background-bottom-right); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom right, $background-top-left, $background-bottom-right); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom right, $background-top-left , $background-bottom-right); /* Standard syntax (must be last) */
-    footer {
-    	height: 100px;
-    }
+html {
+	body {
+	    // background: url("../images/backgrounds/rose.png"), -webkit-linear-gradient(left top, $background-top-left , $background-bottom-right); /* For Safari 5.1 to 6.0 */
+	    // background: url("../images/backgrounds/rose.png"),      -o-linear-gradient(bottom right, $background-top-left, $background-bottom-right); /* For Opera 11.1 to 12.0 */
+	    // background: url("../images/backgrounds/rose.png"),    -moz-linear-gradient(bottom right, $background-top-left, $background-bottom-right); /* For Firefox 3.6 to 15 */
+	    // background: url("../images/backgrounds/rose.png"),         linear-gradient(to bottom right, $background-top-left , $background-bottom-right); /* Standard syntax (must be last) */   
+	    background: url("../images/backgrounds/rose-top-eq.png"), $background-top-left;
+	    background-repeat: no-repeat;
+	    background-position: right bottom;
+	    background-attachment: fixed;
+	    background-size: 100%;
+	    .sect1 {
+	    	background-color: $rose-light-trans;
+	    }
+	    footer {
+	    	height: 100px;
+	    }
+	}
 }
-
 .info {
-	padding-top: 80px;
+	padding-top: 120px;
 }
 
+.marg-s {
+	margin: 10px;
+}
 .img-s {
-	height: 60px;
+	height: 50px;
+	width: 80%;
 }
 
 .img-m {
@@ -46,4 +61,8 @@ body {
 
 .img-l {
 	height: 150px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
 }
