@@ -10,27 +10,40 @@ $gray-light: #EDEAEA;
 $gray-light-trans: rgba(237,234,234, 0.8);
 
 $background-top-left: #E0DECB;
+$background-top-left-trans: rgba(224,222,203,0.8);
 $background-bottom-right: #9F8283;
+$background-bottom-right-trans: rgba(159,130,131,0.8);
 
 
 nav.navbar {
-	background: -webkit-linear-gradient(left top, $background-top-left , $background-bottom-right); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom right, $background-top-left, $background-bottom-right); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom right, $background-top-left, $background-bottom-right); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom right, $background-top-left , $background-bottom-right); /* Standard syntax (must be last) */
+	background-color: $background-top-left-trans;
 	.nav.navbar-nav {
 		padding-top: 1.5%;
 	}
 }
 
 body {
-	background-color: $rose-light;
+    background: -webkit-linear-gradient(left top, $background-top-left , $background-bottom-right); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, $background-top-left, $background-bottom-right); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, $background-top-left, $background-bottom-right); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, $background-top-left , $background-bottom-right); /* Standard syntax (must be last) */
+    footer {
+    	height: 100px;
+    }
 }
 
 .info {
 	padding-top: 80px;
 }
 
-.headerLogo {
+.img-s {
 	height: 60px;
+}
+
+.img-m {
+	height: 100px;
+}
+
+.img-l {
+	height: 150px;
 }

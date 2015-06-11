@@ -1,4 +1,9 @@
 nav.navbar {
+  background-color: rgba(224, 222, 203, 0.8); }
+  nav.navbar .nav.navbar-nav {
+    padding-top: 1.5%; }
+
+body {
   background: -webkit-linear-gradient(left top, #E0DECB, #9F8283);
   /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(bottom right, #E0DECB, #9F8283);
@@ -7,16 +12,19 @@ nav.navbar {
   /* For Firefox 3.6 to 15 */
   background: linear-gradient(to bottom right, #E0DECB, #9F8283);
   /* Standard syntax (must be last) */ }
-  nav.navbar .nav.navbar-nav {
-    padding-top: 1.5%; }
-
-body {
-  background-color: #FCF5F5; }
+  body footer {
+    height: 100px; }
 
 .info {
   padding-top: 80px; }
 
-.headerLogo {
+.img-s {
   height: 60px; }
+
+.img-m {
+  height: 100px; }
+
+.img-l {
+  height: 150px; }
 
 /*# sourceMappingURL=style.css.map */
