@@ -1,12 +1,36 @@
 $rose-light: #FCF5F5;
+$rose-light-trans: rgba(252,245,245,0.7);
 $rose-med-light: #FFE3E3;
 $rose-med: #FFBCBC;
 $rose-med-dark: #FFA2A2;
+$rose-med-dark-trans: rgba(255,126,126, 0.8);
 $rose-dark: #FF64A2;
 
-nav {
-	background-color: $rose-med-light;
+$gray-light: #EDEAEA;
+$gray-light-trans: rgba(237,234,234, 0.8);
+
+$background-top-left: #E0DECB;
+$background-bottom-right: #9F8283;
+
+
+nav.navbar {
+	background: -webkit-linear-gradient(left top, $background-top-left , $background-bottom-right); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, $background-top-left, $background-bottom-right); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, $background-top-left, $background-bottom-right); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, $background-top-left , $background-bottom-right); /* Standard syntax (must be last) */
+	.nav.navbar-nav {
+		padding-top: 1.5%;
+	}
 }
+
+body {
+	background-color: $rose-light;
+}
+
 .info {
-	padding-top: 70px;
+	padding-top: 80px;
+}
+
+.headerLogo {
+	height: 60px;
 }
