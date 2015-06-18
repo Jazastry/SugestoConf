@@ -32,13 +32,41 @@ html {
 	    background-attachment: fixed;
 	    background-size: 100%;
 	    .sect1 {
-	    	background-color: $rose-light-trans;
+	    	background-color: rgba(252,245,245,0.3);
+	    }
+	    .sect2 {
+	    	background-color: rgba(250,78,248,0.3);
+	    }
+	    .sect3 {
+	    	background-color: rgba(72,33,242,0.3); 
+	    }
+	    .sect4 {
+	    	background-color: rgba(62,237,243,0.3); 
+	    }
+	    .sect5 {
+	    	background-color: rgba(4,200,88,0.3); 
+	    }
+	    .sect6 {
+	    	background-color: rgba(250,253,55,0.3); 
+	    }
+	    .sect7 {
+	    	background-color: rgba(249,4,4,0.3); 
 	    }
 	    footer {
 	    	height: 100px;
 	    }
 	}
 }
+
+.sect-info {
+	padding-top: 1%;
+	padding-left: 8%;
+	padding-right: 8%;
+	p {
+		text-align: justify;
+	}
+}
+
 .info {
 	padding-top: 100px;
 }
@@ -62,11 +90,11 @@ html {
 
 @media (min-width: 768px) and (max-width: 994px) {
 	.info {
-		padding-top: 140px;
+		padding-top: 150px;
 	}
 }
 
-@media (min-width: 457px) and (max-width: 768px) {
+@media (min-width: 440px) and (max-width: 768px) {
 	.info {
 		padding-top: 80px;
 	}
@@ -75,7 +103,7 @@ html {
 	}
 }
 
-@media (min-width: 10px) and (max-width: 457px) {
+@media (min-width: 10px) and (max-width: 440px) {
 	.info {
 		padding-top: 120px;
 	}
