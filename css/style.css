@@ -1,8 +1,10 @@
 nav.navbar {
-  background-color: rgba(224, 222, 203, 0.8); }
+  background-color: rgba(224, 222, 203, 0.9); }
   nav.navbar .nav.navbar-nav {
     padding-top: 1.5%; }
 
+html a {
+  color: #4434A6; }
 html body {
   background: url("../images/backgrounds/rose-top-eq.png"), #E4E0CE;
   background-repeat: no-repeat;
@@ -10,21 +12,38 @@ html body {
   background-attachment: fixed;
   background-size: 100%; }
   html body .sect1 {
-    background-color: rgba(252, 245, 245, 0.3); }
+    background-color: rgba(252, 245, 245, 0.6); }
+    html body .sect1 p, html body .sect1 h5 {
+      font-size: 120%; }
   html body .sect2 {
-    background-color: rgba(250, 78, 248, 0.3); }
+    background-color: rgba(235, 149, 231, 0.7); }
+    html body .sect2 p {
+      font-size: 120%; }
   html body .sect3 {
-    background-color: rgba(72, 33, 242, 0.3); }
+    background-color: rgba(162, 141, 247, 0.8); }
+    html body .sect3 p {
+      font-size: 120%; }
   html body .sect4 {
-    background-color: rgba(62, 237, 243, 0.3); }
+    background-color: rgba(202, 241, 241, 0.8); }
+    html body .sect4 p {
+      font-size: 120%; }
   html body .sect5 {
-    background-color: rgba(4, 200, 88, 0.3); }
+    background-color: rgba(127, 229, 168, 0.7); }
+    html body .sect5 p {
+      font-size: 120%; }
   html body .sect6 {
-    background-color: rgba(250, 253, 55, 0.3); }
+    background-color: rgba(249, 249, 142, 0.8); }
+    html body .sect6 p {
+      font-size: 120%; }
   html body .sect7 {
-    background-color: rgba(249, 4, 4, 0.3); }
+    background-color: rgba(241, 94, 91, 0.8); }
+    html body .sect7 p {
+      font-size: 120%; }
   html body footer {
     height: 100px; }
+
+.bold {
+  font-weight: bold; }
 
 .sect-info {
   padding-top: 1%;
@@ -34,21 +53,36 @@ html body {
   .sect-info p {
     text-align: justify; }
 
+.center {
+  margin-left: auto;
+  margin-right: auto; }
+
 .info {
   padding-top: 100px; }
+
+.inline {
+  display: inline-block; }
+
+.marg-top-m {
+  margin-top: 30px; }
 
 .marg-s {
   margin: 10px; }
 
+.img-ss {
+  height: 20px; }
+
 .img-s {
-  height: 50px;
-  width: 100%; }
+  height: 50px; }
 
 .img-m {
   height: 100px; }
 
 .img-l {
   height: 150px; }
+
+.img-xl {
+  height: 200px; }
 
 @media (min-width: 768px) and (max-width: 994px) {
   .info {

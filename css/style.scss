@@ -10,9 +10,10 @@ $gray-light: #EDEAEA;
 $gray-light-trans: rgba(237,234,234, 0.8);
 
 $background-top-left: #E4E0CE;
-$background-top-left-trans: rgba(224,222,203,0.8);
+$background-top-left-trans: rgba(224,222,203,0.9);
 $background-bottom-right: #9F8283;
 $background-bottom-right-trans: rgba(159,130,131,0.8);
+$p-font-size: 120%;
 
 
 nav.navbar {
@@ -25,6 +26,9 @@ nav.navbar {
 	}
 }
 html {
+	a {
+		color: #4434A6;
+	}
 	body {
 	    background: url("../images/backgrounds/rose-top-eq.png"), $background-top-left;
 	    background-repeat: no-repeat;
@@ -32,30 +36,59 @@ html {
 	    background-attachment: fixed;
 	    background-size: 100%;
 	    .sect1 {
-	    	background-color: rgba(252,245,245,0.3);
+	    	background-color: rgba(252,245,245,0.6);
+		    p, h5 {
+	    		font-size: $p-font-size;
+	    	}
 	    }
 	    .sect2 {
-	    	background-color: rgba(250,78,248,0.3);
+	    	//color: #FFFFFF;
+	    	background-color: rgba(235,149,231,0.7);//rgba(250,78,248,0.7);
+	    	p {
+	    		font-size: $p-font-size;
+	    	}
 	    }
 	    .sect3 {
-	    	background-color: rgba(72,33,242,0.3); 
+	    	//color: #FFFFFF;
+	    	background-color: rgba(162,141,247,0.8);//rgba(72,33,242,0.7);
+	    	p {
+	    		font-size: $p-font-size;
+	    	}
 	    }
 	    .sect4 {
-	    	background-color: rgba(62,237,243,0.3); 
+	    	background-color: rgba(202,241,241,0.8);//rgba(62,237,243,0.7);
+	    	p {
+	    		font-size: $p-font-size;
+	    	}
 	    }
 	    .sect5 {
-	    	background-color: rgba(4,200,88,0.3); 
+    		//color: #FFFFFF;
+	    	background-color: rgba(127,229,168,0.7); // rgba(4,200,88,0.7);
+	    	p {
+	    		font-size: $p-font-size;
+	    	}
 	    }
 	    .sect6 {
-	    	background-color: rgba(250,253,55,0.3); 
+	    	background-color: rgba(249,249,142,0.8); //rgba(250,253,55,0.7);
+	    	p {
+	    		font-size: $p-font-size;
+	    	}
 	    }
 	    .sect7 {
-	    	background-color: rgba(249,4,4,0.3); 
+	    	//color: #FFFFFF;
+	    	background-color: rgba(241,94,91,0.8);//rgba(249,4,4,0.6);
+	    	p {
+	    		font-size: $p-font-size;
+	    	}
 	    }
 	    footer {
 	    	height: 100px;
 	    }
 	}
+}
+
+.bold {
+	font-weight: bold;
 }
 
 .sect-info {
@@ -68,16 +101,32 @@ html {
 	}
 }
 
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .info {
 	padding-top: 100px;
 }
 
+.inline {
+	display: inline-block;
+}
+
+.marg-top-m {
+	margin-top: 30px;
+}
 .marg-s {
 	margin: 10px;
 }
+
+.img-ss {
+	height: 20px;
+}
+
 .img-s {
 	height: 50px;
-	width: 100%;
 }
 
 .img-m {
@@ -86,6 +135,10 @@ html {
 
 .img-l {
 	height: 150px;
+}
+
+.img-xl {
+	height: 200px;
 }
 
 @media (min-width: 768px) and (max-width: 994px) {
