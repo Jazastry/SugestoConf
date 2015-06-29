@@ -16,10 +16,12 @@ html body {
     html body .sect1 p, html body .sect1 h5 {
       font-size: 120%; }
   html body .sect2 {
+    color: #FFFFFF;
     background-color: rgba(235, 149, 231, 0.7); }
     html body .sect2 p {
       font-size: 120%; }
   html body .sect3 {
+    color: #FFFFFF;
     background-color: rgba(162, 141, 247, 0.8); }
     html body .sect3 p {
       font-size: 120%; }

@@ -5,6 +5,7 @@ $rose-med: #FFBCBC;
 $rose-med-dark: #FFA2A2;
 $rose-med-dark-trans: rgba(255,126,126, 0.8);
 $rose-dark: #FF64A2;
+$blue-dark: #4434A6;
 
 $gray-light: #EDEAEA;
 $gray-light-trans: rgba(237,234,234, 0.8);
@@ -27,7 +28,7 @@ nav.navbar {
 }
 html {
 	a {
-		color: #4434A6;
+		color: $blue-dark;
 	}
 	body {
 	    background: url("../images/backgrounds/rose-top-eq.png"), $background-top-left;
@@ -36,20 +37,21 @@ html {
 	    background-attachment: fixed;
 	    background-size: 100%;
 	    .sect1 {
+	    	//color: #FFFFFF;
 	    	background-color: rgba(252,245,245,0.6);
 		    p, h5 {
 	    		font-size: $p-font-size;
 	    	}
 	    }
 	    .sect2 {
-	    	//color: #FFFFFF;
-	    	background-color: rgba(235,149,231,0.7);//rgba(250,78,248,0.7);
+	    	color: #FFFFFF;
+	    	background-color: rgba(235,149,231,0.7); // rgba(243,175,240,0.8); //rgba(250,78,248,0.7);
 	    	p {
 	    		font-size: $p-font-size;
 	    	}
 	    }
 	    .sect3 {
-	    	//color: #FFFFFF;
+	    	color: #FFFFFF;
 	    	background-color: rgba(162,141,247,0.8);//rgba(72,33,242,0.7);
 	    	p {
 	    		font-size: $p-font-size;
