@@ -109,6 +109,10 @@ html {
 	margin-right: auto;
 }
 
+.float-left {
+	float: left;
+}
+
 .info {
 	padding-top: 100px;
 }
@@ -117,13 +121,30 @@ html {
 	display: inline-block;
 }
 
+// :::::::::  margins
 .marg-top-m {
 	margin-top: 30px;
+}
+.marg-top-l {
+	margin-top: 50px;
 }
 .marg-s {
 	margin: 10px;
 }
+.marg-m {
+	margin: 20px;
+}
+.marg-l {
+	margin: 30px;
+}
 
+// ::::::::: paddings
+.padding-m {
+	padding: 20px;
+}
+
+
+// ::::::::: image sizes
 .img-ss {
 	height: 20px;
 }
